@@ -36,8 +36,8 @@ def healthcare_response(user_input):
          along with appointments and medication schedules.
          """
 
-         response = chatbot(question=user_input, context=content)
-         return response['answer']
+        response = chatbot(question=user_input, context=content)
+        return response['answer']
 
 # Streamlit web app interface
 def main():
